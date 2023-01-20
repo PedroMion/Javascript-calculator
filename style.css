@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    width: 450px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.visor {
+    background-color: #808080;
+    width: 100%;
+    height: 150px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.teclado {
+    width: 100%;
+}
+
+.fileira {
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.botao {
+    background-color: #808080;
+    color: aliceblue;
+    height: 90px;
+    width: 90px;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#exp {
+    color: aliceblue;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+#igual {
+    background-color: orangered;
+}
